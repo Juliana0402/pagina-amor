@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sueños</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/1200x/c8/69/db/c869dbf2cef60e3aa2cbd4089491d35d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    color: #f9f5fa;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+
+  p.descripcion {
+    color: #401145;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .card h3 {
+    margin-top: 15px;
+    color: #333;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #d18be6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .boton:hover {
+    background: #b669cf;
+  }
+</style>
+</head>
+<body>
+
+<h1>Sueños</h1>
+<p class="descripcion">Estás a punto de cruzar un portal a un universo misterioso, donde el tiempo se dobla y las reglas del mundo despierto se disuelven. Aquí hallarás pistas y secretos para descifrar los mensajes que tu mente te susurra mientras duermes.---Desde tiempos antiguos, los sueños se han visto como puentes hacia lo divino y ventanas al futuro. Cada noche, tu imaginación crea paisajes imposibles, seres enigmáticos y aventuras que solo existen en este mundo nocturno. Soñar es abrir la puerta a tu propio universo interior: allí viven tus anhelos, tus miedos, tus recuerdos y tu magia más profunda, por eso los sabios y estudiosos han buscado su significado durante siglos.
+
+Nadie comparte tu historia ni tus emociones, y cada sueño es un relato tejido solo para ti. Comprenderlo significa mirar dentro de tu corazón y escuchar lo que tu espíritu quiere contarte. Un sueño enlaza cuerpo, mente y alma; al explorarlo, descubres tesoros ocultos de tu personalidad y destellos de sabiduría que pueden iluminar tu vida. Los sueños son el taller secreto de la mente, donde tus pensamientos y vivencias se ordenan como constelaciones, y aunque algunos duden de su magia, exploradores de la mente como Freud y Jung demostraron que estos mensajes pueden guiarnos hacia una existencia más plena.
+
+Cada sueño nace de tu propio cosmos interior, y los diccionarios de símbolos son solo mapas: la llave verdadera para entenderlos la tienes tú. Deja que tu subconsciente te lleve de viaje, observa, anota, comparte con otros soñadores y descubre el hechizo que cada noche te ofrece. ✨</p>
+
+<div class="contenedor">
+  <div class="card">
+    <img src="https://i.pinimg.com/1200x/0d/75/b7/0d75b7326c199d778d837a3d33ad3ef6.jpg" alt="Mariposas">
+    <h3>Soñar con mariposas</h3>
+    <p>Cambio, transformación y libertad.</p>
+    <a class="boton" href="mariposas.html">Ver más</a>
+  </div>
+
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/c0/a8/fc/c0a8fc427b81ad8558a602e9b21a65f2.jpg" alt="Bebé">
+    <h3>Soñar con un amor imposible</h3>
+    <p>Deseo y emociones no resueltas.</p>
+    <a class="boton" href="amorimposible.html">Ver más</a>
+  </div>
+
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/8e/ff/1d/8eff1d072d6e0bbd96a152ddf0b7504b.jpg">
+    <h3>Soñar con un Caida de diente</h3>
+    <p>Sentirse atrapado o sin control.</p>
+    <a class="boton" href="caida.html">Ver más</a>
+  </div>
+ </div>
+
+</body>
+</html>
